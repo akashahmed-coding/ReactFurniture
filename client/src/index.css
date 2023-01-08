@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html{
+  scroll-behavior: smooth
+}
+@import url('./components/mainpage/navber/navber.css');
+@import url('./components/mainpage/Home/home.css');
+@import url('./components/mainpage/about/about.css');
+@import url('./components/mainpage/shop/shop.css');
+@import url('./components/mainpage/header/Header.css');
+@import url('./components/mainpage/detailsPage/detailsProduct.css');
+@import url('./components/mainpage/contactUs/Contact.css');
+@import url('./components/mainpage/blog/blog.css');
+@import url('./components/mainpage/cart/cart.css');
+
+
+@import url('./components/blogSidebar/blogSidebar.css');
+@import url('./components/BottomDesciptionProduct/bottomDescriptionProduct.css');
+@import url('./components/description/description.css');
+@import url('./components/footer/footer.css');
+@import url('./components/OurAllBlog/ourAllBlog.css');
+@import url('./components/ourProduct/OurProducts.css');
+@import url('./components/OurAllProduct/ourAllProduct.css');
+/* @import url('./components/ourServices/OurServices.js'); */
+@import url('./components/rating/rating.css');
+@import url('./components/review/Review.css');
+@import url('./components/satisfications/satisfications.css');
+@import url('./components/serviceAbout/serviceAbout.css');
+@import url('./components/shopSideBar/shopSideBar.css');
+@import url('./components/SideRatingCount/SideRatingCount.css');
+@import url('./components/specialoffer/specialOffer.css');
+@import url('./components/submiteReview/submiteReview.css');
+@import url('./components/trendingFurniture/trendingFurniture.css');
+@import url('./components/woodenBed/woodenbed.css');
+@import url('./components/reactSlider/ReactSlider.css');
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) { 
+  /* HomePage */
+  .header-text h1 {
+    font-size: 5rem;
+}
+.home-sectinOneWrapper {
+  justify-content: space-around;
+  padding: 140px 32px 80px 75px;
+}
+ .img-sectionOne {
+  position: relative;
+  width: 377px;
+  height: 448px;
+  margin: 0 20px;
+}
+.details-sectionOne {
+  width: 400px;
+}
+.details-sectionOne h2 {
+  font-size: 2rem;
+}
+.tredingWrapper {
+  padding: 100px 74px;
+}
+.trendingTitle {
+  font-size: 2rem;
+}
+.trendingText{
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.ourProductsWrapper {
+  padding: 100px 10px;
+}
+.woodenBedWrapper {
+  padding: 80px 126px 152px 35px;
+}
+.woodenBedTitle {
+  font-size: 2rem;
+}
+.specialOfferWrapper {
+  padding: 80px 59px;
+}
+.footerWrapper {
+  padding: 100px 64px;
+}
+.footerDivListItem {
+  font-size: 16px;
+}
+}
+ @media screen and  (max-width: 992px) { 
+  /* HomePage */
+  .header-text h1 {
+    font-size: 4rem;
+}
+.header-text p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.logo{
+  width: 200px;
+}
+.logo img{
+  width: 100%;
+}
+.details-sectionOne h2 {
+  font-size: 1.5rem;
+}
+.details-sectionOne-title {
+  font-size: 14px;
+}
+.trendingTitle {
+  font-size: 1.5rem;
+}
+.trendingText {
+  font-size: 14px;
+}
+ .footerWrapper {
+  padding: 100px 35px;
+}
+.ourProductsTitle {
+  font-size: 2.5rem;
+}
+.woodenBedWrapper{
+  flex-direction: column;
+} 
+.woodenBedRight{
+  width: 450px;
+} 
+.woodenBedLeft{
+  width: 450px;
+}
+}
+ @media screen and  (max-width: 768px) { 
+  /* HomePage */
+  .home-sectinOneWrapper {
+    flex-flow: wrap;
+  }
+  .details-sectionOne {
+    margin-top: 20px;
+}
+.details-sectionOne-miniTitle {
+  font-size: 22px;
+}
+.tredingWrapper{
+  flex-wrap: wrap;
+}
+.trendingRight{
+  width: 100%;
+  flex: none;
+  
+}
+.trendingLeft{
+ width: 100%;
+ flex: none;
+}
+.ourProductsTitle {
+  font-size: 2rem;
+}
+.ourPorductsButton {
+  font-size: 16px;
+}
+.woodenBedRight{
+  width: 400px;
+} 
+.woodenBedLeft{
+  width: 400px;
+}
+.woodenBedWrapper {
+  padding: 0px 60px 152px 0px;
+}
+}
+ @media screen and  (min-width: 576px) { 
+
+}
+

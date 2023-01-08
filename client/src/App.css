@@ -1,0 +1,19 @@
+.container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+a{
+  text-decoration: none;
+  color: #ddd;
+}
+button{
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.9;
+}
+li{
+  cursor: pointer;
+}
